@@ -1,8 +1,9 @@
 import  {HeaderContainer}  from "./HeaderStyle";
+import { Wrapper } from "../App";
 
 const Header = () => {
     return(
-        <div>
+        <Wrapper>
             <HeaderContainer>
                 <img src="./assets/SVCClogo.png"></img>
                 <h1>Sillicon Valley Code Camp</h1>
@@ -11,7 +12,7 @@ const Header = () => {
                     <button>Sign-out</button>
                 </div>
             </HeaderContainer>
-        </div>
+        </Wrapper>
     )
 }
 

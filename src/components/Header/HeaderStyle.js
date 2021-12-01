@@ -26,7 +26,16 @@ export const HeaderContainer = styled.div`
             border: none;
             background-color: #51b5b1;
             color: #ffff;
+            cursor: pointer;
+            transition: opacity 0.5s ease-in-out;
+            &:hover {
+                opacity: 0.5;
+            }
         }
     }
+`
+
+export const Wrapper = styled.div`
+    margin: 0 8em;
 `
 
