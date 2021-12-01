@@ -3,6 +3,7 @@ import { GlobalStyleComponent } from "styled-components";
 import Header from "./Header/Header";
 import Toolbar from "./Toolbar/Toolbar";
 import Posts from "./Posts/Posts";
+import { data } from "./Data";
 
 const FontStyle = styled.div`
     @import url("https://fonts.googleapis.com/css?family=Open+Sans");
@@ -19,13 +20,13 @@ export const Wrapper = styled.div`
   margin: 0 8em;
    `
 
-const App = () => {
+const App = ({data}) => {
     return(
         <div>
             <GlobalStyle/>
                 <Header/>
                 <Toolbar />
-                <Posts/>
+                <Posts data={data} />
         </div>
     )
 }

@@ -10,11 +10,15 @@ export const SessionToolbarStyle = styled.div`
     font-weight: bold;
     display: flex;
     align-items: center;
-    border-left: 1px solid gray; 
 
     section{
         display: flex;    
     }
+`
+
+export const SessionsBar = styled.div`
+    border-left: 10px solid red;
+
 `
 export const FunctionalityToolbarStyle = styled.div`
      margin: 0 8em;
