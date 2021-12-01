@@ -16,7 +16,6 @@ const Toolbar = () => {
                 <Theme />
                 <Search />
             </FunctionalityToolbarStyle>
-
         </ToolbarSection>
     )
 }
@@ -35,13 +34,13 @@ function EventYear() {
 function ShowSessions() {
     return(
         <ShowSessionsStyle>
-        <p>Show Sessions</p>
- 
-            <label className="control"> 
-                <input type="checkbox"></input>
-                <span className="switch"></span>
-            </label>
-
+            <section>
+                <p>Show Sessions</p>                
+                <label className="control"> 
+                    <input type="checkbox"></input>
+                    <span className="switch"></span>
+                </label>
+            </section>     
         </ShowSessionsStyle>
     )
 }

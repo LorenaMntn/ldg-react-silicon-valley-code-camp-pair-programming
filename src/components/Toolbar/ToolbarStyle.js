@@ -7,10 +7,14 @@ export const ToolbarSection =  styled.div`
 export const SessionToolbarStyle = styled.div`
     margin: 0 8em;
     padding: .3em 0;
+    font-weight: bold;
     display: flex;
     align-items: center;
-    font-weight: bold;
+    border-left: 1px solid gray; 
 
+    section{
+        display: flex;    
+    }
 `
 export const FunctionalityToolbarStyle = styled.div`
      margin: 0 8em;
