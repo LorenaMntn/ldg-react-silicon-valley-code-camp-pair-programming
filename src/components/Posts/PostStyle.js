@@ -30,7 +30,7 @@ export const FavoritePostStyle = styled.div`
 `
 export const PostDetailsStyle = styled.div`
     display: flex;
-    
+
     aside{
         margin-right: 1em;
         display: flex;
@@ -54,4 +54,11 @@ export const PostDetailsStyle = styled.div`
             }
         }
     }
+`
+
+export const PostSectionSessionStyle = styled.div`
+    margin: 1em .5em;
+    min-height: 2em;
+    background-color: #e6e6e6;
+    border-radius: .2em;
 `

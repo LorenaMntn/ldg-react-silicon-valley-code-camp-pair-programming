@@ -8,8 +8,7 @@ const Toolbar = () => {
     return (
         <ToolbarSection>
             <SessionToolbarStyle>
-                 <EventYear/>
-                 <SessionsBar/>
+                 <EventYear />
                  <ShowSessions/>       
             </SessionToolbarStyle>
             <FunctionalityToolbarStyle>
@@ -37,7 +36,7 @@ function ShowSessions() {
         <ShowSessionsStyle>
             <section>
                 <p>Show Sessions</p>                
-                <label className="control"> 
+                <label className="control" > 
                     <input type="checkbox"></input>
                     <span className="switch"></span>
                 </label>
@@ -49,7 +48,7 @@ function ShowSessions() {
 function FavoriteList() {
     return(
         <ShowSessionsStyle>
-         <p>Favorite List</p>
+         <p style = {{marginLeft: "2em"}}>Favorite List</p>
             <label className="control"> 
                 <input type="checkbox"></input>
                 <span className="switch"></span>

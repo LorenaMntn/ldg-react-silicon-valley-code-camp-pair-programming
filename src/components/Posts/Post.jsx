@@ -1,6 +1,7 @@
-import { PostCardSection, PostInfoStyle, FavoritePostStyle, PostDetailsStyle } from "./PostStyle";
+import { PostCardSection, PostInfoStyle, FavoritePostStyle, PostDetailsStyle, PostSectionSessionStyle } from "./PostStyle";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBuilding, faStar } from '@fortawesome/free-solid-svg-icons'
+import { faBuilding, faStar, faTwitter } from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
 function Post ( ) {
     return(
@@ -9,7 +10,8 @@ function Post ( ) {
                 <PostInfo />
                 <FavoritePost />            
                 <PostDetails />
-            </PostInfoStyle>          
+            </PostInfoStyle> 
+            <PostSectionSession /> 
         </PostCardSection>
     )
 }
@@ -45,7 +47,7 @@ function PostDetails({bio, company, twitterHandle }) {
                 </div>
             </aside>
             <aside>
-                <a><FontAwesomeIcon icon={faBuilding} className="icon"/></a>
+                <a><FontAwesomeIcon icon={[fab, faTwitter]} className="icon"/></a>
                 <div>
                     <h5>Twitter</h5>
                     <h5>Twitter</h5>
@@ -54,6 +56,15 @@ function PostDetails({bio, company, twitterHandle }) {
             </aside>
         </PostDetailsStyle>           
     </section>
+    )
+}
+
+function PostSectionSession() {
+    return(
+        <PostSectionSessionStyle> 
+            <p>text text text</p>
+        </PostSectionSessionStyle>
+        
     )
 }
 

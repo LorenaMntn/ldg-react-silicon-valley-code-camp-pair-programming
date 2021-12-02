@@ -9,16 +9,14 @@ export const SessionToolbarStyle = styled.div`
     padding: .3em 0;
     font-weight: bold;
     display: flex;
-    align-items: center;
-
     section{
-        display: flex;    
+        display: flex; 
+        align-items: center;   
     }
 `
 
 export const SessionsBar = styled.div`
     border-left: 10px solid red;
-
 `
 export const FunctionalityToolbarStyle = styled.div`
      margin: 0 8em;
@@ -31,7 +29,6 @@ export const FunctionalityToolbarStyle = styled.div`
 `
 export const EventYearStyle = styled.div`
     margin: .5em 0 .5em 1em;
-
     select{
         margin-left: .8em;
         margin-right: .8em;
@@ -103,7 +100,7 @@ export const SearchStyle = styled.div`
 
     button{
         width: 2.5em;
-        height: 2.1em;
+        height: 2.2em;
         border-radius: 0 .2em .2em 0;
         border: none;
         background-color: #787777;
