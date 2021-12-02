@@ -5,6 +5,7 @@ export const HeaderContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-weight: bold;
 
     img{
      width: 6.5em;
@@ -14,7 +15,7 @@ export const HeaderContainer = styled.div`
     div{
         display: flex;
         align-items: center;
-
+        
         p{
             margin-right: .7em;
         }
