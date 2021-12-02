@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { Star } from "@styled-icons/bootstrap/Star";
+
 
 export const PostCardSection = styled.div`
     min-height: 450px;
